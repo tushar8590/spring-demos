@@ -1,0 +1,6 @@
+<ehcache>
+	<diskStore path = "java.temp.io"  />
+	
+	<cache name = "usernameCache"
+	    maxElementsInMemory="100" eternal="false" overflowToDisk="false" memoryStoreEvictionPolicy="LRU" />
+</ehcache>
